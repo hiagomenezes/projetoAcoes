@@ -1,0 +1,35 @@
+﻿@model Projetoacao.Models.Acoes
+
+@{
+    ViewBag.Title = "Lista";
+}
+
+<h2>Ações agendadas</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>NomeFaculdade</th>
+            <th>LocalFaculdade</th>
+            <th>QuantCartao</th>
+            <th>QuantFunc</th>
+            <th>InicioAcao</th>
+            <th>InicioAcao</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>@Model.NomeFaculdade</td>
+            <td >@Model.LocalFaculdade</td>
+            <td>@Model.QuantCartao</td>
+            <td>@Model.QuantFunc</td>
+            <td>@Model.InicioAcao</td>
+            <td>@Model.InicioAcao</td>
+
+
+
+        </tr>
+   
+    </tbody>
+</table>

@@ -1,0 +1,46 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<form action="@Url.Action("Lista","Acoes")" method="post">
+    <div class="form-group">
+        <label>Nome faculdade</label>
+        <input type="text" class="form-control" id="Nomex" name="NomeFaculdade"  >
+
+    </div>
+
+    <div class="form-group">
+        <label>local da faculdade</label>
+        <input type="text" class="form-control" id="Nomex" name="LocalFaculdade">
+
+    </div>
+
+    <div class="form-group">
+        <label>Inicio da Açõe</label>
+        <input type="text" class="form-control" id="Nomex" name="InicioAcao">
+
+    </div>
+
+    <div class="form-group">
+        <label>termino da Açõe</label>
+        <input type="text" class="form-control" id="Nomex" name="TerminoAcao">
+
+    </div>
+
+    <div class="form-group">
+        <label>Quantidade de impressora</label>
+        <input type="text" class="form-control" id="Nomex" name="QuantFunc">
+
+    </div>
+
+    <div class="form-group">
+        <label>Quantidade de cartão</label>
+        <input type="text" class="form-control" id="Nomex" name="QuantCartao">
+
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
